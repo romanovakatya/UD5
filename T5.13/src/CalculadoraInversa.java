@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 public class CalculadoraInversa {
 
 	public static void main(String[] args) {
@@ -75,10 +77,16 @@ public class CalculadoraInversa {
 				|| signoAritmetico.equalsIgnoreCase("3")) {
 
 			System.out.println("El resultado es: " + result);
+			
+			JOptionPane.showMessageDialog(null, "El resultado es: " + result);
+
 		} 
 		else {
 			
 			System.out.println("El resultado es: " + resultado);
+			
+			JOptionPane.showMessageDialog(null, "El resultado es: " + result);
+
 		}
 
 		teclado.close();
